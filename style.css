@@ -1,14 +1,33 @@
 body {
+<<<<<<< Updated upstream
     font-family: cursive;
+=======
+<<<<<<< Updated upstream
+    font-family: Arial, sans-serif;
+>>>>>>> Stashed changes
     background-color: #39435f;
     color: #398a7f;
     margin: 0px;
+=======
+    font-family: cursive;
+    /* background-color: #39435f;*/
+    color: #398a7f; 
+    margin: 0;
+>>>>>>> Stashed changes
     padding: 2px 2px 10px 10px ;
     line-height: 1.6;
+    min-height: 100vh;
+    background-image: url(./pics-store/background_2.png);
+
+/* background-image: url("your-background-image.png"); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     /* padding-right: 30px;
     padding-left: 30px; */
 }
 
+<<<<<<< Updated upstream
 /* header {
     margin-bottom: 30px;
     border-bottom: 9px solid #334155;
@@ -21,31 +40,100 @@ h1, h2, h3 {
     color: rgb(109, 76, 228);
 }
 
+<<<<<<< Updated upstream
 #site-header {
     color: rgb(109, 76, 228);
     line-height: 0;
 }
+=======
+=======
+.logo {
+    width: clamp(180px, 35vw, 420px);
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.recipe {
+    width: min(95%, 1200px);
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .recipe {
+        width: 94%;
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    p, li {
+        font-size: 0.95rem;
+    }
+}
+
+h1, h2, h3 {
+    color: rgb(109, 76, 228);
+}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 li {
     margin-bottom: 5px;
 }
 
 #site-header {
-    height: 11em;
-    background-color: rgb(25, 29, 50);
-    padding: 15px 10px 15px 15px;
-    margin: 0px 10px 0px 0px;
-    border-radius: 10000px;
+    min-height: 230px;
+    padding: 25px 20px 15px;
+    margin: 0 auto 15px;
+    border-radius: 0 0 60px 60px;
     text-align: center;
+    color: rgb(109, 76, 228);
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
+
+#site-header img {
+    width: 400px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto 15px;
+}
+
+#site-header nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+@media (max-width: 600px) {
+    #site-header img {
+        width: 300px;
+        max-width: 90%;
+    }
+}
+
 #site-header h1::before{
     content: "🍤";
     font-size: 3rem;
 }
 .recipe-card {
     align-self: center;
-    background-color: rgb(25, 29, 50);
+    background-color: rgb(25, 29, 50,0.5);
     border-radius: 25px;
     border: 4px solid rgb(40, 30, 60);
     margin-bottom: 10px;

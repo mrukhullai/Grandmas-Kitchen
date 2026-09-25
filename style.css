@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: cursive;
     background-color: #39435f;
     color: #398a7f;
     margin: 0px;
@@ -17,10 +17,14 @@ body {
 } */
 
 h1, h2, h3 {
-    font-family: Superclarendon, "Bookman Old Style", Georgia, serif;
+    /* font-family: Superclarendon, "Bookman Old Style", Georgia, serif; */
     color: rgb(109, 76, 228);
 }
 
+#site-header {
+    color: rgb(109, 76, 228);
+    line-height: 0;
+}
 
 li {
     margin-bottom: 5px;
@@ -53,6 +57,7 @@ li {
 nav a {
     text-decoration: none;
     color: rgba(16, 101, 151, 0.76);
+    font-family: cursive;
 }
 
 a.active {

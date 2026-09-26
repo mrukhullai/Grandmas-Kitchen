@@ -54,7 +54,7 @@ li {
 
     text-align: center;
 
-    color: rgb(109, 76, 228);
+    color: rgb(109, 76, 228,0.5);
 
     display: flex;
     flex-direction: column;
@@ -65,7 +65,10 @@ li {
     box-sizing: border-box;
 
     /* Slight dark background so the logo is easier to see */
-    background-color: rgba(25, 29, 50, 0.65);
+    background-color: rgba(25, 29, 50, 0.2);
+
+    border: 4.5px solid rgb(40, 30, 60,200000);
+
 }
 
 
@@ -126,11 +129,11 @@ a.active {
 .recipe-card {
     align-self: center;
 
-    background-color: rgba(25, 29, 50, 0.85);
+    background-color: rgba(25, 29, 50, 0.2);
 
     border-radius: 25px;
 
-    border: 4px solid rgb(40, 30, 60);
+    border: 4.5px solid rgb(40, 30, 60,200000);
 
     margin-bottom: 15px;
 

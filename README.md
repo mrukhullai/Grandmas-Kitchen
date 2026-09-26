@@ -1,4 +1,4 @@
-# ![Grandma's Kitchen logo](./pics-store/ChatGPT%20Image%20Sep%2025,%202026,%2011_46_02%20AM.png)
+# ![Grandma's Kitchen logo](./pics-store/background.png)
 
 Grandma's Kitchen is a modern website concept for a small-scale fast food business. The project showcases warm, welcoming branding, recipe highlights, and a clean layout designed to attract customers and present the business professionally.
 
